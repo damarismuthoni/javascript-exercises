@@ -7,7 +7,7 @@
 
 describe("functions", function() {
     "use strict";
-
+    function myFunction() {}
     describe("Function declaration", () => {
         it("should run without errors", function() {
             myFunction(); // myFunction should already be callable here
